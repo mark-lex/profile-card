@@ -23,6 +23,13 @@ section {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 100px auto ;
+    box-shadow: 4px 8px 24px 0px hsl(229, 23%, 23%, 0.1);
+    transition: 500ms ease;
+}
+
+section:hover {
+    transform: scale(1.01);
+    box-shadow: 4px 8px 24px 0px hsl(229, 23%, 23%, 0.3);
 }
 
 section .portrait {
@@ -153,6 +160,12 @@ footer a:hover {
 
     section {
         margin: 60px auto;
+        transition: 0ms;
+    }
+
+    section:hover {
+        transform: scale(1);
+        box-shadow: 4px 8px 24px 0px hsl(229, 23%, 23%, 0.1);
     }
 
     footer a:hover {
