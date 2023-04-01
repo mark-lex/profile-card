@@ -124,6 +124,8 @@ footer {
     text-align: center;
     color: hsl(0, 0%, 100%);
     padding: 20px;
+    position: absolute;
+    bottom: 0;
 }
 
 footer p {
@@ -150,11 +152,11 @@ footer a:hover {
     }
 
     section {
-        margin: 70px auto;
+        margin: 60px auto;
     }
 
     footer a:hover {
-        color: #ffffff;
+        color: hsl(0, 0%, 100%);
         cursor: pointer;
         overflow: visible;
     }
