@@ -118,6 +118,30 @@ section .box .stats .item p {
     padding: 5px 0 0 ;
 }
 
+footer {
+    width: 100%;
+    background-color: hsl(229, 23%, 23%);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+footer p {
+    font-weight: 300;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    transition: 400ms ease;
+}
+
+footer a:hover {
+    color: hsl(185, 75%, 39%);
+    cursor: pointer;
+}
+
 @media screen and (max-width: 420px) {
     body {
         background: url(../img/bg-pattern-top.svg) -700px -700px, url(../img/bg-pattern-bottom.svg) 130px 200px;
@@ -127,5 +151,11 @@ section .box .stats .item p {
 
     section {
         margin: 110px auto;
+    }
+
+    footer a:hover {
+        color: #ffffff;
+        cursor: pointer;
+        overflow: visible;
     }
 }
